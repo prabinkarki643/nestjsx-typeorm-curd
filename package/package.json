@@ -1,6 +1,6 @@
 {
   "name": "@prabink/nestjsx-typeorm-curd",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nest CRUD for RESTful APIs",
   "author": "Prabin Karki <prabinkarki643@gmail.com>",
   "private": false,
