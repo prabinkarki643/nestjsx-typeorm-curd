@@ -1,5 +1,5 @@
 {
-  "name": "@nestjsx/typeorm-curd",
+  "name": "@prabink/nestjsx-typeorm-curd",
   "version": "1.0.0",
   "description": "Nest CRUD for RESTful APIs",
   "author": "Prabin Karki <prabinkarki643@gmail.com>",
@@ -31,6 +31,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabinkarki643/nestjsx-typeorm-curd"
+  },
+  "bugs": "https://github.com/prabinkarki643/nestjsx-typeorm-curd",
   "dependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",

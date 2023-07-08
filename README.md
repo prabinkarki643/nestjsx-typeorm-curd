@@ -5,7 +5,7 @@ This code represent how to use Typeorm Curd Generator
 ## Installation
 
 ```sh
-npm i @nestjsx/typeorm-curd
+npm i @prabink/nestjsx-typeorm-curd
 ```
 
 Also install the following to work with this packages if not installed
@@ -321,14 +321,14 @@ From frontend you can pass the query params as follows
 ### With using qs package
 
 ```js
-const qs = require('qs');
+const qs = require("qs")
 const query = qs.stringify(
   {
-    fields: ['id', 'userName', 'email'], // Use [] for all
-    filter: [{ field: 'userName', operator: '$eq', value: 'AB' }],
-    or: [{ field: 'userName', operator: '$eq', value: 'AB' }],
-    join: [{ field: 'role' }, { field: 'avatar' }], // Use ['*'] for all
-    sort: [{ field: 'userName', order: 'DESC' }],
+    fields: ["id", "userName", "email"], // Use [] for all
+    filter: [{ field: "userName", operator: "$eq", value: "AB" }],
+    or: [{ field: "userName", operator: "$eq", value: "AB" }],
+    join: [{ field: "role" }, { field: "avatar" }], // Use ['*'] for all
+    sort: [{ field: "userName", order: "DESC" }],
     limit: 50,
     offset: 0,
     pagination: true,
@@ -338,9 +338,9 @@ const query = qs.stringify(
   },
   {
     encodeValuesOnly: true, // prettify URL
-  },
-);
-await request('/api/users?{query}');
+  }
+)
+await request("/api/users?{query}")
 ```
 
 ## Authors

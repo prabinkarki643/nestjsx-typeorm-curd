@@ -5,7 +5,7 @@ This code represent how to use Typeorm Curd Generator
 ## Installation
 
 ```sh
-npm i @nestjsx/typeorm-curd
+npm i @prabink/nestjsx-typeorm-curd
 ```
 
 Also install the following to work with this packages if not installed
